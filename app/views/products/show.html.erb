@@ -68,7 +68,7 @@
   <% end %>
 </div>
 <div class="col-md-12 col-centered panel panel-default">
-  <div class="panel-body">
+  <div class="panel-body", style="margin-top: -50px;">
     <div class="col-md-5 col-md-offset-1">
       <% if @product.image.present? %>
         <%= image_tag(@product.image.medium.url, class: "thumbnail") %>
@@ -121,7 +121,7 @@
 </div>
 
 <!-- 商品详情及用户评价 -->
-<div class="productDetail">
+<!-- <div class="productDetail">
     <ul class="productDetail-tabList clearfix">
       <li class="productDetail-tabList-tab productDetail-tabList-activeTab">
         商品详情
@@ -143,5 +143,5 @@
         </p>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- 商品详情和用户评价结束 -->
