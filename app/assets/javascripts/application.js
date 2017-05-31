@@ -17,6 +17,7 @@
 //= require bootstrap/dropdown
 //= require bootstrap/modal
 //= require bootstrap/alert
+//= require bootstrap/collapse
 //= require_tree .
 
 // --首頁圖片輪播--

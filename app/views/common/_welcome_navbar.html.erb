@@ -9,10 +9,21 @@
 
 <nav class="navbar navbar-default" role="navigation" id="myNavbar">
   <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
+      <!-- rwd導航 -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- rwd導航 -->
       <a class="navbar-brand logo" href="/">Select.</a>
     </div>
     <div class="collapse navbar-collapse">
+      <!-- rwd導航包裹區 -->
+      <div class="navbar-collapse navbar-ex1-collapse collapse" aria-expanded="false">
       <ul class="nav navbar-nav">
         <li><a href="/#select">关于Select.</a></li>
         <!-- 加入分类浏览按钮 -->
@@ -68,6 +79,8 @@
           </li>
         <% end %>
       </ul>
+      </div>
+      <!-- rwd導航包裹區 -->
     </div>
   </div>
 </nav>

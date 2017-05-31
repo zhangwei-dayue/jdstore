@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- 行動優先 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 行動優先 -->
     <title>Select.</title>
     <%= csrf_meta_tags %>
 
@@ -8,7 +12,8 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="shortcut icon" href="/images/favicon.ico">
   </head>
-  <!-- <body style="background-color: #fff;">  <!-- #单一商品页面的两侧的背景颜色始终去不掉，所以新建了这个页面专用的body背景颜色（白色） --> 
+
+  <body>
     <div class="container-fluid">
       <div class="row">
         <%= render "common/navbar" %>
