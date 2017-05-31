@@ -211,10 +211,13 @@ a:hover {
 // 轮播图结束
 
 // 热卖商品轮播图
+.hot-products-bg {
+  background-image: linear-gradient(-225deg, rgba(232, 234, 249, 0.5) 0%, rgba(255, 244, 242, 0.5) 100%);
+}
 .hot-products-title {
   text-align: center;
   margin: 40px auto;
-  font-size: 30px;
+  font-size: 1.5em;
   margin-bottom: -110px;
 }
 .hot-productslist {
@@ -262,8 +265,9 @@ a:hover {
       }
       .productList-item-name{
         margin-top:2px !important;
-        margin-left: 35px;
+        margin-left: 15px;
         margin-right: 35px;
+        text-align: left;
       }
       .productList-item-desc {
         margin-top:2px !important;
